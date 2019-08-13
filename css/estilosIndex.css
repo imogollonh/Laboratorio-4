@@ -35,18 +35,18 @@ nav{
     margin: 0px;
 }
 
-ul{
+nav ul{
     list-style: none;
     white-space: nowrap;
     font-family: 'Indie Flower', cursive;
 }
-li{
+nav li{
     text-align: center;
     display: inline-block;
     align-content: unset;
 }
 
-a{
+nav a{
    /* font-family: 'Indie Flower', cursive;
     text-decoration: transparent;
     color: black;
@@ -119,3 +119,48 @@ footer {
   footer a{
     float: right;
   }
+
+
+  /*Prueba de slider*/
+div{
+    margin-left: 2%;
+}
+div li{
+    display: table-cell;
+}
+div img{
+    width: 1300px;
+    height: 500px;;
+}
+div{
+    width: 1300px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+div ul{
+    position: absolute;
+    animation-name: movimiento;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movimiento{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: -1300px;
+    }
+    50%{
+        left: -2600px;
+    }
+    75%{
+        left: -1300px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+/*Fin de la prueba de slider*/
