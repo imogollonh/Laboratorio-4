@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+*{
+    font-family: 'Lacquer', sans-serif;
+}
+body{
+    margin: 5px; 
+}
+div{
+    position: sticky;
+}
+/*Menu*/
+.cajaMenu{
+    margin:0px;
+    height: 551px;
+    width: 400px;
+    background-image: url("https://image.freepik.com/vector-gratis/planeta-realista-efecto-fuego-fondo-espacio-exterior_46706-644.jpg");
+    left: 66.6%;
+    position: absolute;
+    border: ridge gray 20px;
+    top:4%;
+}
+.piezaSiguiente{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/cuadro.PNG");
+    left: 25%;
+    position: absolute;
+    top:55%;
+}
+.textoPiezaSiguiente{
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    left: 25%;
+    position: absolute;
+    top:35%;
+    font-size: 30PX;
+}
+.textoScore{
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 30PX;
+}
+/*Verde manzana #008000;*/
+.cajaPrincipal{
+    height: 615px;
+    width: 1340px;   
+    right:  500px;
+    background: url("https://i.ytimg.com/vi/ZsVoh_tGFLw/maxresdefault.jpg");
+
+}
+/*Fin del menu*/
+
+/*Cajas borde top de 8 en 8 Izquierdo*/
+.cajaBorde1{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBorde2{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:84%;
+}
+.cajaBorde3{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:76%;
+}
+.cajaBorde4{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:68%;
+}
+.cajaBorde5{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:60%;
+}
+.cajaBorde6{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:52%;
+}
+.cajaBorde7{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:44%;
+}
+.cajaBorde8{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:36%;
+}
+.cajaBorde9{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:28%;
+}
+.cajaBorde10{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:20%;
+}
+.cajaBorde11{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:12%;
+}
+.cajaBorde12{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 0%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:4%;
+}
+/*Fin de cajas borde Izquierdo*/
+
+/*Inicio borde derecho*/
+/*Cajas borde top de 8 en 8 Derecho*/
+.cajaBordeI1{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeI2{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:84%;
+}
+.cajaBordeI3{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:76%;
+}
+.cajaBordeI4{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:68%;
+}
+.cajaBordeI5{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:60%;
+}
+.cajaBordeI6{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:52%;
+}
+.cajaBordeI7{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:44%;
+}
+.cajaBordeI8{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:36%;
+}
+.cajaBordeI9{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:28%;
+}
+.cajaBordeI10{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:20%;
+}
+.cajaBordeI11{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:12%;
+}
+.cajaBordeI12{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:4%;
+}
+/*Fin de cajas borde Derecho*/
+
+/*Borde horizontal*/
+.cajaBordeH1{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 3.7%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH2{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 7.4%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH3{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 11.1%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH4{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 14.8%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH5{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 18.5%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH6{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 22.2%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH7{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 25.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH8{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 29.6%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH9{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 33.3%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH10{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 37%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH11{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 40.7%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH12{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 44.4%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH13{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 48.1%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH14{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 51.8%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH15{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 55.5%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH16{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 59.2%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+.cajaBordeH17{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    left: 62.9%;
+    position: absolute;
+    border: ridge gray 10px;
+    top:92%;
+}
+
+/*Fin de borde horizontal*/
+
+/*Derecha de 3.7*/
+/*Top limite 84*/
+/*Espacio entre cuadros 8px*/
+/*Inicio de cuadros*/
+
+.cuadro1{
+    left: 3.7%;
+    position: absolute;
+    top:84%;
+    height: 30px;
+    width: 30px;
+    background: #008000;
+    border: ridge gray 10px;  
+}
+.cuadro2{
+    left: 7.4%;
+    position: absolute;
+    top:84%;
+    height: 30px;
+    width: 30px;
+    background: #008000;
+    border: ridge gray 10px;  
+}
+.cuadro1-1{
+    left: 3.7%;
+    position: absolute;
+    top:76%;
+    height: 30px;
+    width: 30px;
+    background: #008000;
+    border: ridge gray 10px;  
+}
+.cuadro2-1{
+    left: 7.4%;
+    position: absolute;
+    top:76%;
+    height: 30px;
+    width: 30px;
+    background: #008000;
+    border: ridge gray 10px;  
+}
+
+/*Fin de cuadros*/
+
+/*Figuras verticales*/
+.vertical1{
+    left: 59.2%;
+    position: absolute;
+    top:76%;
+    height: 30px;
+    width: 30px;
+    background: #b31500;
+    border: ridge gray 10px;  
+}
+.vertical2{
+    left: 59.2%;
+    position: absolute;
+    top:84%;
+    height: 30px;
+    width: 30px;
+    background: #b31500;
+    border: ridge gray 10px;  
+}
+.vertical3{
+    left: 59.2%;
+    position: absolute;
+    top:68%;
+    height: 30px;
+    width: 30px;
+    background: #b31500;
+    border: ridge gray 10px;  
+}
+.vertical4{
+    left: 59.2%;
+    position: absolute;
+    top:60%;
+    height: 30px;
+    width: 30px;
+    background: #b31500;
+    border: ridge gray 10px;  
+}
+
+/*Fin verticales*/
+
+/*Inicio figura que cae*/
+.cae1{
+    left: 44.4%;
+    position: absolute;
+    top:4%;
+    height: 30px;
+    width: 30px;
+    background: #ffdf00;
+    border: ridge gray 10px;  
+}
+.cae2{
+    left: 44.4%;
+    position: absolute;
+    top:12%;
+    height: 30px;
+    width: 30px;
+    background: #ffdf00;
+    border: ridge gray 10px;  
+}
+.cae3{
+    left: 40.7%;
+    position: absolute;
+    top:12%;
+    height: 30px;
+    width: 30px;
+    background: #ffdf00;
+    border: ridge gray 10px;  
+}
+.cae4{
+    left: 48.1%;
+    position: absolute;
+    top:12%;
+    height: 30px;
+    width: 30px;
+    background: #ffdf00;
+    border: ridge gray 10px;  
+}
+
+/*Fin de figura que cae*/
+
+/*Cuadro 2*/
+.cuadro3{
+    left: 48.1%;
+    position: absolute;
+    top:84%;
+    height: 30px;
+    width: 30px;
+    background: #3bc472;
+    border: ridge gray 10px;  
+}
+.cuadro3-1{
+    left: 51.8%;
+    position: absolute;
+    top:84%;
+    height: 30px;
+    width: 30px;
+    background: #3bc472;
+    border: ridge gray 10px;  
+}
+.cuadro4{
+    left: 51.8%;
+    position: absolute;
+    top:76%;
+    height: 30px;
+    width: 30px;
+    background: #3bc472;
+    border: ridge gray 10px;  
+}
+.cuadro4-1{
+    left: 48.1%;
+    position: absolute;
+    top:76%;
+    height: 30px;
+    width: 30px;
+    background: #3bc472;
+    border: ridge gray 10px;  
+}
+/*Fin de cuadro 2*/
